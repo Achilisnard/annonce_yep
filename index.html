@@ -94,6 +94,8 @@
       iframe {
         display: block;
         margin: 0 auto;
+        width: 80%;
+        height: 600px;
       }
       .documents a {
         display: flex;
@@ -131,16 +133,7 @@
       <section id="a-propos">
         <h2>A propos</h2>
         <p>
-          RARE : Cette ancienne maison de maître datant du XIXe siècle servait
-          d’habitation au prêtre du village mais était également un lieu
-          d’accueil et d’échange. Construite en pierres locales, elle lui
-          confère une grande solidité et une bonne inertie thermique. Son
-          architecture est élégante et symétrique. Une particularité rend cette
-          demeure unique : une source traverse l’une des caves en longeant le
-          mur extérieur. En construisant volontairement la maison près de l’eau,
-          les bâtisseurs ont voulu symboliser l’abondance et la fertilité.
-          Idéalement disposée, son orientation vers le Sud lui apporte lumière
-          et chaleur. Ouverte sur
+          Déscription de la maison
         </p>
       </section>
       <section id="photos">
@@ -174,8 +167,6 @@
         <h2>Vue aérienne</h2>
         <iframe
           src="https://www.google.com/maps/d/embed?mid=1TZA3Wp5mBQud6zK9DLlOcThaJnGN-ZM&ehbc=2E312F"
-          width="1000"
-          height="600"
         ></iframe>
       </section>
       <section id="cadastre">
@@ -271,7 +262,7 @@
       }
 
       // Load text for the "A propos" section
-      loadTextFromFile("text/a-propos.txt", "a-propos-content");
+      loadTextFromFile("text/a-propos.txt", "a-propos");
     </script>
   </body>
 </html>
