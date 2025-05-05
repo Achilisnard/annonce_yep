@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison à MENGLON</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+      <div class="text-background">
+        <h1>Maison à MENGLON</h1>
+        <p>MENGON - DIE</p>
+        <p>CYRILLE BOUVET au 06 22 85 16 39</p>
+        <p class="prix">Prix : 335 000 €</p>
+      </div>
+    </header>
+    <nav class="menu">
+      <a href="#a-propos">Description</a>
+      <a href="#photos">Photos</a>
+      <a href="#video-interieur">Vidéo intérieur</a>
+      <a href="#video-exterieur">Vidéo extérieur</a>
+      <a href="#geolocalisation">Géolocalisation</a>
+      <a href="#cadastre">Cadastre</a>
+      <a href="#details-techniques">Details</a>
+      <a href="#dpe">DPE</a>
+      <a href="#elements-supplementaires">Documents</a>
+    </nav>
+    <div class="content">
+      <section id="a-propos">
+        <h2>A propos</h2>
+        <p>
+          Déscription de la maison
+        </p>
+      </section>
+      <section id="photos">
+        <h2>Photos</h2>
+        <div class="carousel">
+          <img src="photos/1.jpeg" alt="Photo 1" />
+          <img src="photos/2.jpeg" alt="Photo 2" style="display: none" />
+          <img src="photos/3.jpeg" alt="Photo 3" style="display: none" />
+          <img src="photos/4.jpeg" alt="Photo 3" style="display: none" />
+          <img src="photos/5.jpeg" alt="Photo 3" style="display: none" />
+          <img src="photos/6.jpeg" alt="Photo 3" style="display: none" />
+          <img src="photos/7.jpeg" alt="Photo 3" style="display: none" />
+          <!-- Ajoutez autant de photos que nécessaire -->
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+      </section>
+      <section id="video-interieur" class="video-section">
+        <h2>Vidéo Intérieur</h2>
+        <video controls>
+          <source src="videos/video_interieur.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section id="video-exterieur" class="video-section">
+        <h2>Vidéo Extérieur</h2>
+        <video controls>
+          <source src="videos/video_exterieur.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section id="geolocalisation">
+        <h2>Vue aérienne</h2>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1TZA3Wp5mBQud6zK9DLlOcThaJnGN-ZM&ehbc=2E312F"></iframe>
+      </section>
+      <section id="cadastre">
+        <h2>Cadastre</h2>
+        <img src="cadastre/cadastre.jpg" alt="Cadastre" />
+      </section>
+      <section id="details-techniques">
+        <h2>Details techniques</h2>
+        <p>Répartition des pièces : rez-de-chaussée avec un hall d’entrée...</p>
+      </section>
+      <section id="dpe">
+        <h2>Diagnostic de performance énergétique</h2>
+        <img src="dpe/dpe.jpg" alt="DPE" />
+      </section>
+      <section id="elements-supplementaires">
+        <h2>Documents</h2>
+        <div class="documents">
+          <a href="documents/diagnostics.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Diagnostics
+          </a>
+          <a href="documents/croquis.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Croquis
+          </a>
+          <a href="documents/vue aérienne.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Vue aérienne
+          </a>
+          <a href="documents/Caractéristiques techniques.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Caractéristiques techniques
+          </a>
+          <a href="documents/division parcellaire.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Division parcellaire
+          </a>
+          <a href="documents/audit.pdf">
+            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
+            Audit
+          </a>
+        </div>
+      </section>
+    </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
