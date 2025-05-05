@@ -11,10 +11,10 @@
 <body>
     <header>
       <div class="text-background">
-        <h1>Maison à MENGLON</h1>
-        <p>MENGON - DIE</p>
-        <p>CYRILLE BOUVET au 06 22 85 16 39</p>
-        <p class="prix">Prix : 335 000 €</p>
+        <h1 id="titre"></h1>
+        <p id="lieu"></p>
+        <p id="contacte"></p>
+        <p id="prix" class="prix"></p>
       </div>
     </header>
     <nav class="menu">
@@ -39,12 +39,12 @@
         <h2>Photos</h2>
         <div class="carousel">
           <img src="photos/1.jpeg" alt="Photo 1" />
-          <img src="photos/2.jpeg" alt="Photo 2" style="display: none" />
-          <img src="photos/3.jpeg" alt="Photo 3" style="display: none" />
-          <img src="photos/4.jpeg" alt="Photo 3" style="display: none" />
-          <img src="photos/5.jpeg" alt="Photo 3" style="display: none" />
-          <img src="photos/6.jpeg" alt="Photo 3" style="display: none" />
-          <img src="photos/7.jpeg" alt="Photo 3" style="display: none" />
+          <img src="photos/2.jpeg" alt="Photo 2"/>
+          <img src="photos/3.jpeg" alt="Photo 3" />
+          <img src="photos/4.jpeg" alt="Photo 3"  />
+          <img src="photos/5.jpeg" alt="Photo 3"  />
+          <img src="photos/6.jpeg" alt="Photo 3" />
+          <img src="photos/7.jpeg" alt="Photo 3"  />
           <!-- Ajoutez autant de photos que nécessaire -->
           <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
           <a class="next" onclick="changeSlide(1)">&#10095;</a>
@@ -63,8 +63,8 @@
         </video>
       </section>
       <section id="geolocalisation">
-        <h2>Vue aérienne</h2>
-        <iframe src="https://www.google.com/maps/d/embed?mid=1TZA3Wp5mBQud6zK9DLlOcThaJnGN-ZM&ehbc=2E312F"></iframe>
+        <h2>Géolocalisation</h2>
+        <iframe id="map_id"></iframe>
       </section>
       <section id="cadastre">
         <h2>Cadastre</h2>
@@ -108,6 +108,7 @@
         </div>
       </section>
     </div>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
   <script src="scripts.js"></script>
 </body>
 
