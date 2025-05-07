@@ -134,6 +134,10 @@ iframe {
   width: 80%;
   height: 600px;
 }
+img {
+  height: auto;
+  display: block;
+}
 
 .documents a {
   display: flex;

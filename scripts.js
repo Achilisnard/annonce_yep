@@ -15,7 +15,12 @@ function loadTextFromFile(filePath, elementId) {
   fetch(filePath)
     .then((response) => response.text())
     .then((text) => {
-      document.getElementById(elementId).innerText = text;
+      const pElement = document.querySelector(`#${elementId} p`);
+      if (pElement) {
+        pElement.innerText = text;
+      } else {
+        console.error(`Element not found: #${elementId} p`);
+      }
     });
 }
 
