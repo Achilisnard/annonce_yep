@@ -11,10 +11,10 @@
 <body>
     <header>
       <div class="text-background">
-        <h1 id="titre"></h1>
-        <p id="lieu"></p>
-        <p id="contacte"></p>
-        <p id="prix" class="prix"></p>
+        <h1>Charmante maison en pierre rénovée</h1>
+        <p>VERCHENY</p>
+        <p>Cyrille BOUVET - 06 22 85 16 39 / Yaël BORJA - 07 51 62 09 13</p>
+        <p class="prix">280 000 €</p>
       </div>
     </header>
     <nav class="menu">
@@ -32,8 +32,12 @@
       <section id="a-propos">
         <h2>A propos</h2>
         <p>
-          Déscription de la maison
-        </p>
+L’architecture de cette maison en pierre et les volumes généreux lui confèrent une personnalité affirmée, à la fois authentique et unique. Un léger décroché structure la vaste pièce de vie, distinguant subtilement les espaces :<br>
+Côté cuisine, une grande baie vitrée inonde la pièce de lumière et ouvre le regard sur un panorama de vignes et de montagnes dont les 3 becs;
+Côté séjour, une atmosphère chaleureuse , avec un espace lounge intimiste, un poêle à bois, des courbes douces et des pierres apparentes surgissant des murs sont des fragments d’histoire.<br>
+<p>La vie de plain-pied y est tout à fait envisageable, grâce à une chambre confortable, une salle de bains et des toilettes situées au rez-de-chaussée. En montant l’escalier, un garde-corps en métal finement ouvragé attire le regard et ouvre l'espace. Le bureau, baigné de lumière grâce à sa porte-fenêtre ouvrant sur un balcon, offre un cadre idéal pour le travail ou la contemplation. La salle d’eau, quant à elle, joue avec élégance sur les effets de transparence et les harmonies chromatiques. La chambre principale au cadre soigné invite au repos.
+Adossé à la maison, un espace indépendant d’environ cinquante mètres carrés répondra aux besoins des artistes, bricoleurs, thérapeutes ou télétravailleurs en quête d’un atelier ou d’un lieu d’activité dédié. Enfin, un jardin arboré et fleuri ainsi que son hangar en bois complète harmonieusement la propriété, offrant un havre de paix propice à la détente, à l’abri des regards. </p>
+</p>
       </section>
       <section id="photos">
         <h2>Photos</h2>
@@ -54,12 +58,6 @@
           <img src="photos/14.jpeg" alt="Photo 3"  />
           <img src="photos/15.jpeg" alt="Photo 2"/>
           <img src="photos/16.jpeg" alt="Photo 3" />
-          <img src="photos/17.jpeg" alt="Photo 3"  />
-          <img src="photos/18.jpeg" alt="Photo 3"  />
-          <img src="photos/19.jpeg" alt="Photo 3" />
-          <img src="photos/20.jpeg" alt="Photo 3"  />
-          <img src="photos/21.jpeg" alt="Photo 3" />
-          <img src="photos/22.jpeg" alt="Photo 3"  />
           <!-- Ajoutez autant de photos que nécessaire -->
           <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
           <a class="next" onclick="changeSlide(1)">&#10095;</a>
@@ -67,71 +65,66 @@
       </section>
       <section id="video-interieur" class="video-section">
         <h2>Vidéo Intérieur</h2>
-        <video controls>
-          <source src="videos/video_interieur.mp4" type="video/mp4" />
-        </video>
+        <iframe src="https://www.youtube.com/embed/qRcoc9xfRek"></iframe>
       </section>
       <section id="video-exterieur" class="video-section">
         <h2>Vidéo Extérieur</h2>
-        <video controls>
-          <source src="videos/video_exterieur.mp4" type="video/mp4" />
+         <iframe src="https://www.youtube.com/embed/O4_J47GFblg"></iframe>
         </video>
       </section>
       <section id="geolocalisation">
         <h2>Géolocalisation</h2>
-        <iframe id="map_id"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1Bx4GitkqPDFRaExS2gMXTB7ykd3XmDw"></iframe>
       </section>
       <section id="cadastre">
         <h2>Cadastre</h2>
-       <img src="photos/cadastre bdp.png" alt="Cadastre" />
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="documents/cadastre vercheny (1).png" alt="Cadastre" style="max-width: 60%; height: auto;" />
+</div>
       </section>
     <section id="details-techniques">
     <h2>Détails Techniques</h2>
     <ul>
-        <li><strong>Année de construction :</strong> Avant 1900</li>
-        <li><strong>Année d’achat :</strong> 2010</li>
-        <li><strong>Matériaux de construction :</strong> Pierre</li>
+        <li><strong>Année de construction :</strong> Après 1948</li>
+        <li><strong>Année d’achat :</strong> 2017</li>
+        <li><strong>Matériaux de construction :</strong> Pierre et parpaing</li>
         <li><strong>Assainissement :</strong> Tout à l’égout</li>
-        <li><strong>Huisseries :</strong> Fenêtres : bois/PVC - Baie : aluminium</li>
-        <li><strong>Fenêtres de toit :</strong> Bois peint</li>
-        <li><strong>Superficie habitable :</strong> 85 m² maison principale + 28 m² studio</li>
-        <li><strong>Surface extérieure :</strong> 70 m²</li>
-        <li><strong>Superficie cadastrale :</strong> 140 m²</li>
-        <li><strong>Nombre de chambres :</strong> Maison principale - 3 / Studio - 1</li>
-        <li><strong>Garage :</strong> Oui - 26 m²</li>
-        <li><strong>Dépendance :</strong> Atelier sous une des terrasses (12 m²), Cave/sous-sol aménagé (17 m²)</li>
-        <li><strong>Mode de chauffage :</strong> Chaudière au gaz à ventouse / Poêle à bois tubé</li>
-        <li><strong>Coût annuel de l’électricité :</strong> 2 011 € pour 4 personnes</li>
-        <li><strong>Taxe foncière :</strong> 1 396 €</li>
-        <li><strong>Autres informations :</strong> Partie studio - finitions à anticiper</li>
+        <li><strong>Huisseries :</strong> PVC</li>
+        <li><strong>Fenêtres de toit :</strong> PVC</li>
+        <li><strong>Superficie habitable :</strong> 133 m2</li>
+        <li><strong>Superficie cadastrale :</strong> 438 m²</li>
+        <li><strong>Nombre de chambres :</strong> 2 + 1 bureau ou 3 chambres</li>
+        <li><strong>Dépendance :</strong> 50 m2, possibilité d'agrandissement de l'habitation principale</li>
+        <li><strong>Mode de chauffage :</strong> Radiateurs électrique / Poêle à bois tubé</li>
+        <li><strong>Coût annuel de l’électricité :</strong> 840€/an</li>
+        <li><strong>Coût annuel en bois :</strong> 4 à 5 stères/an</li>
+        <li><strong>Taxe foncière :</strong> 900€ en 2024 - 700 en 2023</li>
+        <li><strong>Isolation toiture :</strong> Laine de roche vérifiée</li>
+        <li><strong>Isolation murs :</strong> partie parpaing - polystyrène / étage - laine de bois (20 cm au plafond et 10 cm sur les murs)</li>
+        <li><strong>Autres informations :</strong> changé récemment - chauffe-eau anti calcalire - WC - meuble salle de bain</li>
+        <li><strong>Servitudes :</strong> Chemin d'accès - fond dominant</li>
     </ul>
 </section>
    <section id="dpe">
     <h2>Diagnostic de Performance Énergétique</h2>
-    <img src="documents/DPE.jpg" alt="DPE" style="max-width: 100%; height: auto;" />
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <img src="documents/photo DPE.jpg" alt="DPE" style="max-width: 40%; height: auto;" />
+    </div>
 </section>
       <section id="elements-supplementaires">
         <h2>Documents</h2>
         <div class="documents">
-          <a href="documents/diagnostics.pdf">
+          <a href="documents/DDT.pdf">
             <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
             Diagnostics
           </a>
-           <a href="documents/audit.pdf">
-            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
-            Audit
-          </a>
-          <a href="documents/croquis.pdf">
+          <a href="documents/Croquis (2).pdf">
             <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
             Croquis
           </a>
-          <a href="documents/vue aérienne.pdf">
+          <a href="documents/vue aérienne vercheny (2).png">
             <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
             Vue aérienne
-          </a>
-          <a href="documents/devis.pdf">
-            <img src="icones/pdf_icone.png" alt="PDF Icon" width="24" height="24" />
-            Devis
           </a>
         </div>
       </section>
