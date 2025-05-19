@@ -15,7 +15,16 @@ header {
   padding: 20px;
   text-align: center;
 }
+.logo-container {
+  position: absolute;
+  top: 160px; /* Adjust this value according to your design */
+  left: 20px; /* Adjust this value according to your design */
+}
 
+.logo-container img {
+  max-width: 150px; /* Adjust the size according to your design */
+  height: auto;
+}
 header h1,
 header p {
   color: #ffcc00;
